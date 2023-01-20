@@ -175,7 +175,7 @@ main {
     margin-top: 130px;
 }
 
-.res-center{
+.res-center {
     text-align: center;
     margin-bottom: 110px;
 }
@@ -185,7 +185,7 @@ main {
     gap: 24px;
 }
 
-.resume-title{
+.resume-title {
     font-weight: 700;
     font-size: 30px;
     color: #474747;
@@ -211,12 +211,47 @@ main {
     margin-top: 20px;
 }
 
-.resume-item{
+.resume-item {
     margin-top: 30px;
     margin-bottom: 30px;
 }
 
-.resume-button{
+.resume-button {
     margin-top: 50px;
     text-align: center;
+}
+
+/* contact style */
+
+.contact {
+    display: flex;
+    gap: 100px;
+    margin-top: 130px;
+    background: #FFF8F3;
+    padding: 130px 200px;
+}
+
+.con-title {
+    text-align: left;
+    font-weight: 700;
+    font-size: 35px;
+    color: #181818;
+    margin-bottom: 20px;
+}
+
+.con-description {
+    font-weight: 400;
+    font-size: 16px;
+    color: #474747;
+    margin-bottom: 30px;
+}
+.contact input[type="text"], input[type="email"], textarea{
+    margin-bottom: 24px;
+    border-radius: 5px;
+    width: 100%;
+    padding: 18px 30px;
+}
+
+.contact a{
+    text-decoration: none;
 }
